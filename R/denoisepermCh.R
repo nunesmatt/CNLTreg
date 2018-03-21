@@ -45,7 +45,7 @@ sdsq<-sdh1^2
 #    C = sdsq * W%*%t(W)		# should be no conjugation involved here
     C = sdsq * tcrossprod(W)		# should be no conjugation involved here
     G = sdsq * Gpre
-    P = Conj(G) - t(Conj(C))%*%solve(G)%*%C
+#    P = Conj(G) - t(Conj(C))%*%solve(G)%*%C
 
     Sigma<-array(0,dim=c(2,2,length(nonorcoeff1)))	# Vxx Vyy Vxy Vyx 
     Sigma[1,1,] <- diag(Re(G+C)/2)	# gets jk, jk value
