@@ -56,8 +56,8 @@ a list with components:\cr
   \item{sd}{Estimated heteroscedastic standard deviation of the noise.}
 }
 \references{
-Hamilton, J., Nunes, M. A, Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications. 
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.\cr\cr
+Hamilton, J., Nunes, M. A, Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications. 
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.\cr\cr
 Nunes, M. A., Knight, M. I and Nason, G. P. (2006) Adaptive lifting for nonparametric regression.
 \emph{Stat. Comput.} \bold{16} (2), 143--159.\cr\cr
 Knight, M. I. and Nason, G. P. (2009) A 'nondecimated' wavelet transform. \emph{Stat. Comput.}

@@ -27,7 +27,7 @@ function (x, f, LocalPred = LinearPred, neighbours = 1, intercept = TRUE,
     # closest = FALSE.  The routine should also be for a fixed trajectory so 
     # that the order of removal is the same for all filters.
 
-    # EDIT: for the Hamilton et al. (2017), nfilt = 2, so changed to be fixed below.
+    # EDIT: for the Hamilton et al. (2018), nfilt = 2, so changed to be fixed below.
 
 #    nfilt <- 2*neighbours     
     nfilt <- 2

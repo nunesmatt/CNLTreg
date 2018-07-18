@@ -22,8 +22,8 @@ The main routines of the package are \code{\link{denoisepermC}} and \code{\link{
 Maintainer: \packageMaintainer{CNLTreg}
 }
 \references{
-Hamilton, J., Nunes, M. A, Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications. 
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.\cr\cr
+Hamilton, J., Nunes, M. A, Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications. 
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.\cr\cr
 For related literature on the lifting methodology adopted in the technique, see\cr\cr
 Nunes, M. A., Knight, M. I and Nason, G. P. (2006) Adaptive lifting for nonparametric regression. 
 \emph{Stat. Comput.} \bold{16} (2), 143--159.\cr\cr

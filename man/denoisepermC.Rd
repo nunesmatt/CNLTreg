@@ -43,7 +43,7 @@ observed.}
 After the complex lifting transform is applied, the wavelet coeficients are divided into artificial levels. 
 The details from the lifting scheme have different variances, and will therefore be normalized 
 to have the same variance as the noise, by using the lifting matrix. Those normalized details falling into the finest artificial level will 
-be used for estimating the standard deviation of the noise that contaminated the signal.  The variable \env{sdtype} is used for this estimate, see Appendix B of Hamilton et al. (2017) for more details.  Using this 
+be used for estimating the standard deviation of the noise that contaminated the signal.  The variable \env{sdtype} is used for this estimate, see Appendix B of Hamilton et al. (2018) for more details.  Using this 
 estimate,  the normalized details can then be thresholded and un-normalized.  The transform is then inverted to give an estimate of the signal. 
 }
 \value{
@@ -57,8 +57,8 @@ a list with components:\cr
   \item{sd}{Estimated standard deviation of the noise.}
 }
 \references{
-Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.
+Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.
 }
 \author{
 Matt Nunes, Marina Knight

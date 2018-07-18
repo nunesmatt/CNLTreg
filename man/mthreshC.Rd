@@ -61,9 +61,8 @@ A list with the following components:
           the real and imaginary components respectively.}
 }
 \references{
- Hamilton, J., Knight, M. I., Nunes, M. A. and Fryzlewicz (2017)
-     Complex-valued wavelet lifting and applications. \emph{Technometrics
-     (to appear)} DOI 10.1080/00401706.2017.1281846.
+ Hamilton, J., Knight, M. I., Nunes, M. A. and Fryzlewicz (2018)
+     Complex-valued wavelet lifting and applications. \emph{Technometrics}, \bold{60} (1), 48-60,DOI 10.1080/00401706.2017.1281846.
      Barber, S. and Nason, G. P. (2004) Real nonparametric regression
      using complex wavelets. \emph{J. Roy. Stat. Soc. B} \bold{66} (4), 927--939.
      Downie, T. R. and Silverman, B. W. (1998) The discrete multiple
@@ -121,7 +120,7 @@ fine<-(out$coeffv/indsd)[al[[1]]]
 varest<-mad(Re(fine))^2
 
 # now compute coefficient covariance structure, see
-# Hamilton et al. (2017), Appendix B
+# Hamilton et al. (2018), Appendix B
 
 C = varest * tcrossprod(W)
     G = varest * Gpre

@@ -15,14 +15,14 @@ orthpredfilters(filter = c(0.5, 1, 0.5))
   \item{filter}{An initial filter L}
 }
 \details{
-	See Hamilton et al. (2017), section 2.2.
+	See Hamilton et al. (2018), section 2.2.
 }
 \value{
 A matrix with two rows, the first row corresponding to L, the second corresponding to the orthogonal filter M.
 }
 \references{
-Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.
+Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.
 }
 \author{
 Marina Knight, Matt Nunes

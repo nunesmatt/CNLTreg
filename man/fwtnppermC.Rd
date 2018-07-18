@@ -35,7 +35,7 @@ Otherwise, the closest neighbours (in distance) will be chosen.}
 Given \eqn{n} points on a line, \env{x}, each with a corresponding env{f} value this function computes
 the complex-valued lifting transform of the (\env{x},\env{f}) data. This is similar in spirit to the 
 real-valued lifting transform in \code{\link[nlt]{fwtnpperm}}, except that the algorithm constructs *two* 
-orthogonally linked prediction filters, as in Section 2.2 of Hamilton et al. (2017).  A summary of the 
+orthogonally linked prediction filters, as in Section 2.2 of Hamilton et al. (2018).  A summary of the 
 procedure is as follows:
 
 Step One. Compute "integrals" associated to each point, representing the intervals that each gridpoint 
@@ -49,7 +49,7 @@ neighbours, unless an adaptive procedure is chosen. In this case, the algorithm 
 produces the minimal detail coefficient (in magnitude) from a range of regression types (see \code{\link[adlift]{AdaptPred}} or \code{\link[adlift]{AdaptNeigh}} for more information).  In either case, the regression
 specifies a local filter of the function values over the neighbourhood, \code{L}.
 
-Step Two(b). A second filter, \code{M}, is then constructed orthogonal to \code{L}, such that it has unit norm, see Hamilton et al. (2017) for more details. 
+Step Two(b). A second filter, \code{M}, is then constructed orthogonal to \code{L}, such that it has unit norm, see Hamilton et al. (2018) for more details. 
 
 The differences between the removed point's \env{f} value and the predictions using the two filters are computed, which constitute the real and imaginary parts of the complex-valued wavelet coefficient.  This coefficient is then stored
 
@@ -75,8 +75,8 @@ removed. This has length \env{nkeep}.}
 \item{Ialpha}{Vector of "irregularity degree" measures corresponding to each lifting step of the transform.  Note that this is returned for convenience in other functions, and is not intended for use by the user.}
 }
 \references{
-Hamilton, J., Knight, Nunes, M. A. and Fryzlewicz (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.\cr\cr
+Hamilton, J., Knight, Nunes, M. A. and Fryzlewicz (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{69} (1), 48-60, DOI 10.1080/00401706.2017.1281846.\cr\cr
 For related literature on the lifting methodology adopted in the technique, see\cr\cr
 Nunes, M. A., Knight, M. I and Nason, G. P. (2006) Adaptive lifting for nonparametric regression.
 \emph{Stat. Comput.} \bold{16} (2), 143--159.\cr\cr
